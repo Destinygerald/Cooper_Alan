@@ -1,0 +1,226 @@
+.homepage {
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(12, 13, 65);
+    min-height: 100vh;
+    padding-bottom: 60px;
+}
+
+.banner {
+    width: 100%;
+    height: 88vh;
+    position: relative;
+}
+
+.banner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner-bg img {
+    width: 100%;
+    opacity: .6;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+.banner-cnt {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 0 6%;
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.banner-cnt > div:first-child {
+    font-family: Chango;
+    text-transform: uppercase;
+    font-size: clamp(2.2rem, 6.2vw, 5rem);
+}
+
+.banner-cnt > div:nth-child(2) {
+    font-size: clamp(.98rem, 1.28vw, 1rem);
+    width: 88%;
+    text-align: center;
+}
+
+.banner-cnt button {
+    padding: 16px 48px;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.fun-facts {
+    width: 100%;
+    padding: 0 6%;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.fun-facts-card {
+    width: 100%;
+    height: 160px;
+    border-radius: 12px;
+    background-color: none;
+    border: 3px solid rgb(49, 54, 197);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding: 20px 28px;
+    color: rgb(49, 54, 197);
+}
+
+.fun-facts-card > div:first-child {
+    font-size: clamp(1.16rem, 1.8vw, 1.4rem);
+    font-weight: 500;
+}
+
+.fun-facts-card > div:nth-child(2) {
+    text-align: center;
+    font-size: clamp(.88rem, 1.28vw, 1rem);
+    font-weight: 500;
+}
+
+.section-1, .albums, .live-shows, .section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 0 6%;
+    padding-top: 60px;
+}
+
+.section-1 > div:first-child, .live-shows > div:first-child, .section-2 > div:first-child {
+    font-size: clamp(1.48rem, 2.2vw, 1.8rem);
+    font-weight: 600;
+}
+
+.section-1 > div:nth-child(2), .live-shows-cnt,  .albums-card, .albums > div:last-child, .section-2 > div:nth-child(2) {
+    font-size: clamp(.8rem, 1.28vw, 1rem);
+    line-height: clamp(1.4rem, 2vw, 1.68rem);
+}
+
+.albums {
+    align-items: center;
+}
+
+.albums > div:first-child {
+    text-align: center;
+    font-size: clamp(1.48rem, 2.2vw, 1.8rem);
+    font-weight: 600;
+}
+
+.albums-cnt {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+}
+
+.albums-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.albums-card > div:first-child {
+    width: fit-content;
+    border-bottom: 2px solid white;
+    font-weight: 600;
+}
+
+.albums-card ul {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.live-shows {
+    width: 100%;
+}
+
+.live-shows-cnt {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.live-shows-cnt > div:last-child {
+    width: 55%;
+}
+
+.live-shows-img {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: grey;
+}
+
+.live-shows-img > img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+/* 
+.section-2 > div:first-child {
+    text-align: center;
+} */
+
+.section-2-cnt {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.section-2-cnt > div:first-child {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.section-2 button {
+    width: fit-content;
+    background-color: white;
+    border: none;
+    padding: 14px 48px;
+    border-radius: 60px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: .72rem;
+}
+
+.section-2-cnt > div:last-child {
+    width: 40%;
+    background-color: grey;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.section-2-cnt > div:last-child > img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}

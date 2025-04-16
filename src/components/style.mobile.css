@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+    .nav-items {
+        display: none;
+    }
+
+    .menu-icon {
+        display: inline;
+        font-size: 1.4rem;
+    }
+
+    .navbar button {
+        display: none;
+    }
+
+    .footer-main { 
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footer-contacts {
+        width: 100%;
+        gap: 16px;
+    }
+
+    .footer-contacts > div:nth-child(2) {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
