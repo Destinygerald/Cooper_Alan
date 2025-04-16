@@ -4,7 +4,7 @@ import '../style.mobile.css'
 
 export function FanConnection () {
     return (
-        <div className='section-1'>
+        <div className='section-1' id='fan-connect'>
             <div> The Fan Connection: Real, Raw, and Personal </div>
 
             <div>

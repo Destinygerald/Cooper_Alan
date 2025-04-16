@@ -4,7 +4,7 @@ import '../style.mobile.css'
 
 export function HomeRoots () {
     return (
-        <div className='section-1'>
+        <div className='section-1' id='story'>
             <div> Hometown Roots, Big-Time Dreams </div>
 
             <div>

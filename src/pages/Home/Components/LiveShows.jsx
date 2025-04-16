@@ -4,7 +4,7 @@ import img1 from '/images/Cooper-Alan-Performance.webp'
 
 export function LiveShows () {
     return (
-        <div className='live-shows'>
+        <div className='live-shows' id='shows'>
             <div> Live Shows: Country Thunder With a Rock Show Soul </div>
 
             <div className='live-shows-cnt'>

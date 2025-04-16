@@ -12,9 +12,9 @@ const Singles = [
 	`“I Gotcha” (2025): A fan-favorite single full of Southern charm and lyrical warmth.`
 ]
 
-function AlbumsCard ({ hdr, list }) {
+function AlbumsCard ({ hdr, list, index }) {
     return (
-        <div className='albums-card'>
+        <div className='albums-card' id={index || hdr}>
             <div> {hdr} </div>
 
             <ul>
@@ -32,11 +32,11 @@ function AlbumsCard ({ hdr, list }) {
 
 export function Albums () {
     return (
-        <div className='albums' id='albums'>
+        <div className='albums' id='releases'>
             <div>The Music: A Catalog of Heart, Humor, and Honesty</div>
 
             <div className='albums-cnt'>
-                <AlbumsCard hdr='Albums' list={['Carolina Saturday Night (2017): A youthful introduction to Cooper’s songwriting. Raw, southern, and full of energy.']} />
+                <AlbumsCard index='albums' hdr='Albums' list={['Carolina Saturday Night (2017): A youthful introduction to Cooper’s songwriting. Raw, southern, and full of energy.']} />
 
                 <AlbumsCard hdr='EPs' list={['Take Forever (2023): A mature, emotional body of work capturing love, growth, faith, and the journey of a young man finding his voice.']} />
 

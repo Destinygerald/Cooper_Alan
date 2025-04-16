@@ -3,8 +3,13 @@ import '../style.mobile.css'
 import bg_img from '/images/Cooper-Alan.jpg'
 
 export function Banner () {
+
+    function explore () {
+        window.location.href = '#story'
+    }
+
     return (
-        <div className='banner'>
+        <div className='banner' id='home'>
             <div className='banner-bg'>
                 <img src={bg_img} />
             </div>
@@ -18,7 +23,7 @@ export function Banner () {
                     From small-town North Carolina to streaming millions and selling out shows across the country, Cooper’s rise is a story of hustle, humor, and heart. He’s proof that in today’s world, being yourself is the most powerful brand you can build.
                 </div>
 
-                <button> Explore </button>
+                <button onClick={explore}> Explore </button>
             </div>
         </div>
     )

@@ -4,8 +4,13 @@ import img2 from '/images/Cooper-Alan-Performance-2.webp'
 
 
 export function RoadAhead () {
+
+    function contact () {
+        window.location.href = 'mailto:artistmanagementinquiries@gmail.com'
+    }
+
     return (
-        <div className='section-2'>
+        <div className='section-2' id='whats-more'>
             <div> The Road Ahead: Just Getting Started </div>
 
             <div className='section-2-cnt'>
@@ -19,7 +24,7 @@ export function RoadAhead () {
 
                     Cooper Alan isn’t waiting for a seat at the table—he’s building his own damn stage.
 
-                    <button>Get In Touch</button>
+                    <button onClick={contact}>Get In Touch</button>
                 </div>
 
                 <div>

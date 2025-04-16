@@ -19,20 +19,20 @@ export function Footer () {
 
                 <div className='footer-nav'>
                     <div>
-                        <a href='#early-life'>Kid-Rock's Life</a>
-                        <a href='#albums'>Albums</a>
-                        <a href='#culture'>Cultural Impact</a>
+                        <a href='#home'>Home</a>
+                        <a href='#story'>Story</a>
+                        <a href='#releases'>Releases</a>
                     </div>
 
                     <div>
-                        <a href='#legacy'>Kid-Rock's Legacy</a>
-                        <a href='#philanthropy'>Philanthropy</a>
-                        <a href='#shows'>Life Shows</a>
+                        <a href='#shows'>Shows</a>
+                        <a href='#fun-facts'>Fun Facts</a>
+                        <a href='#fan-connect'>Fan Connect</a>
                     </div>
 
                     <div>                
-                        <a href='#values'>Values and Quotes</a>
-                        <a href='#fun-facts'>Fun Facts</a>
+                        <a href='#whats-more'>What's More?</a>
+                        <a href='#albums'>Albums</a>
                     </div>
                 </div>
 
