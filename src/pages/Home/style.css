@@ -47,6 +47,7 @@
     font-family: Chango;
     text-transform: uppercase;
     font-size: clamp(2.2rem, 6.2vw, 5rem);
+    text-align: center;
 }
 
 .banner-cnt > div:nth-child(2) {
