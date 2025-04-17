@@ -40,6 +40,7 @@ export function Footer () {
 
                 <div className='footer-contacts'>
                     <div>Follow for the latest updates.</div>
+                    
                     <div>
                         <span onClick={() => socials('https://facebook.com/cooperalanmusic')}> <FaFacebook /> </span>
                         <span onClick={() => socials('https://instagram.com/cooperalanmusic')}> <RiInstagramFill /> </span>
