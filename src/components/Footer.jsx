@@ -3,6 +3,7 @@ import './style.mobile.css'
 import { FaFacebook, FaYoutube } from 'react-icons/fa'
 import { RiTwitterXFill } from 'react-icons/ri'
 import { RiInstagramFill } from 'react-icons/ri'
+import { IoLogoTiktok } from 'react-icons/io5'
 import { useState } from 'react'
 
 
@@ -40,10 +41,10 @@ export function Footer () {
                 <div className='footer-contacts'>
                     <div>Follow for the latest updates.</div>
                     <div>
-                        <span onClick={() => socials('http://facebook.com/@CooperAlanMusic')}> <FaFacebook /> </span>
-                        <span onClick={() => socials('http://instagram.com/@cooperalanmusic')}> <RiInstagramFill /> </span>
-                        <span onClick={() => socials('http://twitter.com/kidrock')}> <RiTwitterXFill /> </span>
-                        <span onClick={() => socials('http://youtube.com/c/Cooper Alan')}> <FaYoutube />  </span>
+                        <span onClick={() => socials('https://facebook.com/cooperalanmusic')}> <FaFacebook /> </span>
+                        <span onClick={() => socials('https://instagram.com/cooperalanmusic')}> <RiInstagramFill /> </span>
+                        <span onClick={() => socials('https://www.tiktok.com/search?q=alan%20cooper&t=1744874225434')}> <IoLogoTiktok /> </span>
+                        <span onClick={() => socials('http://youtube.com/@cooperalanmusic')}> <FaYoutube />  </span>
                     </div>
                 </div>
             
